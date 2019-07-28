@@ -11,5 +11,6 @@ Changed:
 Removed:
 	- Removed shipsets and ministers - this mod is not intended to be compatible with any AI.
 	- Removed organic and crystalline hulls - they don't add much to the game but make editing the mod more difficult.
+	- Removed life support component to avoid clickiness in ship design. Merged its ability into crew quarters.
 Fixed:
 	- Nothing to speak of!
