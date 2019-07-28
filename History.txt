@@ -1,0 +1,13 @@
+Version History - Sort of Balanceish Mod for Space Empires V
+================================================================
+
+v1.0
+------------------------------
+Added:
+	- Nothing to speak of!
+Changed:
+	- Enabled slot overrides for more balanced vehicle component layouts.
+	- Removed shipsets and ministers - this mod is not intended to be compatible with any AI.
+	- Enabled use of stock shipsets.
+Fixed:
+	- Nothing to speak of!
