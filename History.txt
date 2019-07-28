@@ -4,13 +4,14 @@ Version History - Sort of Balanceish Mod for Space Empires V
 v1.0
 ------------------------------
 Added:
-	- Nothing to speak of!
+	- Racial colony modules. If you don't have the appropriate homeworld type then colony modules will cost twice as much and take up twice as much space.
+		- This should help cut down on colony spam, especially in late game when players are trading colony techs.
 Changed:
 	- Enabled slot overrides for more balanced vehicle component layouts.
 	- Enabled use of stock shipsets.
 Removed:
-	- Removed shipsets and ministers - this mod is not intended to be compatible with any AI.
-	- Removed organic and crystalline hulls - they don't add much to the game but make editing the mod more difficult.
-	- Removed life support component to avoid clickiness in ship design. Merged its ability into crew quarters.
+	- Shipsets and ministers - this mod is not intended to be compatible with any AI.
+	- Organic and crystalline hulls - they don't add much to the game but make editing the mod more difficult.
+	- Life support component, to avoid clickiness in ship design. Merged its ability into crew quarters.
 Fixed:
 	- Nothing to speak of!
