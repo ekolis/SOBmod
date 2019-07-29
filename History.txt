@@ -9,6 +9,7 @@ Added:
 Changed:
 	- Enabled slot overrides for more balanced vehicle component layouts.
 	- Enabled use of stock shipsets.
+	- Reorganized design types to get rid of duplicates and add a few that were missing.
 Removed:
 	- Shipsets and ministers - this mod is not intended to be compatible with any AI.
 	- Organic and crystalline hulls - they don't add much to the game but make editing the mod more difficult.
