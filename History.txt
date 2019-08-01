@@ -10,6 +10,7 @@ Changed:
 	- Enabled slot overrides for more balanced vehicle component layouts.
 	- Enabled use of stock shipsets.
 	- Reorganized design types to get rid of duplicates and add a few that were missing.
+	- Hulls no longer get bigger as they level up; instead they gain other bonuses (such as reduced maintenance).
 Removed:
 	- Shipsets and ministers - this mod is not intended to be compatible with any AI.
 	- Organic and crystalline hulls - they don't add much to the game but make editing the mod more difficult.

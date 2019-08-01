@@ -1,4 +1,4 @@
-=======================================================================================
+stars=======================================================================================
 TECH AREA DATA FILE - Captain Kwok's Balance Mod v1.20+
 =======================================================================================
 
@@ -535,7 +535,7 @@ Group                                           := Applied Science
 Category                                        := Construction
 Description                                     := Construction of medium ship hulls.
 Picture Number                                  := 140
-Maximum Level                                   := 9
+Maximum Level                                   := 8
 Level Cost                                      := 50000
 Start Level                                     := 0
 Can Be Removed                                  := FALSE
@@ -552,7 +552,7 @@ Group                                           := Applied Science
 Category                                        := Construction
 Description                                     := Construction of large ship hulls.
 Picture Number                                  := 141
-Maximum Level                                   := 9
+Maximum Level                                   := 8
 Level Cost                                      := 80000
 Start Level                                     := 0
 Can Be Removed                                  := FALSE
@@ -569,7 +569,7 @@ Group                                           := Applied Science
 Category                                        := Construction
 Description                                     := Construction of large mobile bases.
 Picture Number                                  := 138
-Maximum Level                                   := 6
+Maximum Level                                   := 5
 Level Cost                                      := 100000
 Start Level                                     := 0
 Can Be Removed                                  := FALSE
@@ -588,7 +588,7 @@ Group                                           := Applied Science
 Category                                        := Construction
 Description                                     := Construction of Space Station hulls.
 Picture Number                                  := 19
-Maximum Level                                   := 6
+Maximum Level                                   := 5
 Level Cost                                      := 30000
 Start Level                                     := 1
 Can Be Removed                                  := FALSE
@@ -605,7 +605,7 @@ Group                                           := Applied Science
 Category                                        := Construction
 Description                                     := Construction of Starbase hulls.
 Picture Number                                  := 137
-Maximum Level                                   := 6
+Maximum Level                                   := 5
 Level Cost                                      := 100000
 Start Level                                     := 0
 Can Be Removed                                  := FALSE
