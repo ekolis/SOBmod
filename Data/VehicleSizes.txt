@@ -72,7 +72,7 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 20
 Ability 1 Amount 2 Formula                      := 10
 Ability 2 Type                                  := Description Only
-Ability 2 Description                           := Frigates can have a maximum of 4 engines.
+Ability 2 Description                           := Frigates can have a maximum of 2 engines.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
@@ -105,8 +105,8 @@ Requirement 5 Description                       := Frigates need Crew Quarters f
 Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 100) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 6 Description                       := Frigates need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 7 Description                       := Frigates can have a maximum of 4 engines.
-Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 4
+Requirement 7 Description                       := Frigates can have a maximum of 2 engines.
+Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 2
 
 Name                                            := Destroyer
 Short Name                                      := Destroyer
@@ -171,7 +171,7 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 15
 Ability 1 Amount 2 Formula                      := 10
 Ability 2 Type                                  := Description Only
-Ability 2 Description                           := Destroyers can have a maximum of 6 engines.
+Ability 2 Description                           := Destroyers can have a maximum of 3 engines.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
@@ -204,8 +204,8 @@ Requirement 5 Description                       := Destroyers need Crew Quarters
 Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 150) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 6 Description                       := Destroyers need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 7 Description                       := Destroyers can have a maximum of 6 engines.
-Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 6
+Requirement 7 Description                       := Destroyers can have a maximum of 3 engines.
+Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 3
 
 Name                                            := Light Cruiser
 Short Name                                      := Light Cruiser
@@ -270,7 +270,7 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 10
 Ability 1 Amount 2 Formula                      := 10
 Ability 2 Type                                  := Description Only
-Ability 2 Description                           := Light Cruisers can have a maximum of 8 engines.
+Ability 2 Description                           := Light Cruisers can have a maximum of 4 engines.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
@@ -303,8 +303,8 @@ Requirement 5 Description                       := Light Cruisers need Crew Quar
 Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 250) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 6 Description                       := Light Cruisers need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 7 Description                       := Light Cruisers can have a maximum of 8 engines.
-Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 8
+Requirement 7 Description                       := Light Cruisers can have a maximum of 4 engines.
+Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 4
 
 Name                                            := Cruiser
 Short Name                                      := Cruiser
@@ -363,7 +363,7 @@ Ground Combat Deceleration Rate Minimum         := 0.0
 Ground Combat Banks When Changing Height        := TRUE
 Number Of Abilities                             := 3
 Ability 1 Type                                  := Description Only
-Ability 1 Description                           := Cruisers can have a maximum of 12 engines.
+Ability 1 Description                           := Cruisers can have a maximum of 5 engines.
 Ability 1 Scope                                 := Space Object
 Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := 0
@@ -396,8 +396,8 @@ Requirement 5 Description                       := Cruisers need Crew Quarters f
 Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 400) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 6 Description                       := Cruisers need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 7 Description                       := Cruisers can have a maximum of 12 engines.
-Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 12
+Requirement 7 Description                       := Cruisers can have a maximum of 5 engines.
+Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 5
 
 Name                                            := Battleship
 Short Name                                      := Battleship
@@ -462,7 +462,7 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := -10
 Ability 1 Amount 2 Formula                      := 10
 Ability 2 Type                                  := Description Only
-Ability 2 Description                           := Battleships can have a maximum of 16 engines.
+Ability 2 Description                           := Battleships can have a maximum of 6 engines.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
@@ -495,8 +495,8 @@ Requirement 5 Description                       := Battleships need Crew Quarter
 Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 500) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 6 Description                       := Battleships need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 7 Description                       := Battleships can have a maximum of 16 engines.
-Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 16
+Requirement 7 Description                       := Battleships can have a maximum of 6 engines.
+Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 6
 
 Name                                            := Dreadnought
 Short Name                                      := Dreadnought
@@ -561,7 +561,7 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := -20
 Ability 1 Amount 2 Formula                      := 10
 Ability 2 Type                                  := Description Only
-Ability 2 Description                           := Dreadnoughts can have a maximum of 24 engines.
+Ability 2 Description                           := Dreadnoughts can have a maximum of 7 engines.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
@@ -594,8 +594,8 @@ Requirement 5 Description                       := Dreadnoughts need Crew Quarte
 Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 700) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 6 Description                       := Dreadnoughts need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 7 Description                       := Dreadnoguhts can have a maximum of 24 engines.
-Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 24
+Requirement 7 Description                       := Dreadnoguhts can have a maximum of 7 engines.
+Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 7
 
 Name                                            := Baseship
 Short Name                                      := Baseship
@@ -660,7 +660,7 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := -30
 Ability 1 Amount 2 Formula                      := 10
 Ability 2 Type                                  := Description Only
-Ability 2 Description                           := Baseships can have a maximum of 30 engines.
+Ability 2 Description                           := Baseships can have a maximum of 8 engines.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
@@ -693,8 +693,8 @@ Requirement 5 Description                       := Baseships need Crew Quarters 
 Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 1000) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 6 Description                       := Baseships need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 7 Description                       := Baseships can have a maximum of 30 engines.
-Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 30
+Requirement 7 Description                       := Baseships can have a maximum of 8 engines.
+Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 8
 
 Name                                            := Light Carrier
 Short Name                                      := Light Carrier
@@ -765,7 +765,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := "Fighter"
 Ability 2 Amount 2 Formula                      := 3000
 Ability 3 Type                                  := Description Only
-Ability 3 Description                           := Light Carriers can have a maximum of 8 engines.
+Ability 3 Description                           := Light Carriers can have a maximum of 3 engines.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
@@ -800,8 +800,8 @@ Requirement 6 Description                       := Light Carriers need Crew Quar
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 300) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 7 Description                       := Light Carriers need enough Life Support for Crew Quarters.
 Requirement 7 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 8 Description                       := Light Carriers can have a maximum of 8 engines.
-Requirement 8 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 8
+Requirement 8 Description                       := Light Carriers can have a maximum of 3 engines.
+Requirement 8 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 3
 Requirement 9 Description                       := Light Carriers must have at least 20% of its hull dedicated to Fighter Bays or Drone Launchers.
 Requirement 9 Formula                           := Get_Design_Ability_Percentage_Of_Hull_Space("Units - Launch", "Fighter") + Get_Design_Ability_Percentage_Of_Hull_Space("Units - Launch", "Drone") >= 19
 
@@ -874,7 +874,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := "Fighter"
 Ability 2 Amount 2 Formula                      := 3000
 Ability 3 Type                                  := Description Only
-Ability 3 Description                           := Carriers can have a maximum of 16 engines.
+Ability 3 Description                           := Carriers can have a maximum of 5 engines.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
@@ -909,8 +909,8 @@ Requirement 6 Description                       := Carriers need Crew Quarters f
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 500) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 7 Description                       := Carriers need enough Life Support for Crew Quarters.
 Requirement 7 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 8 Description                       := Carriers can have a maximum of 16 engines.
-Requirement 8 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 16
+Requirement 8 Description                       := Carriers can have a maximum of 5 engines.
+Requirement 8 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 5
 Requirement 9 Description                       := Carriers must have at least 20% of its hull dedicated to Fighter Bays or Drone Launchers.
 Requirement 9 Formula                           := Get_Design_Ability_Percentage_Of_Hull_Space("Units - Launch", "Fighter") + Get_Design_Ability_Percentage_Of_Hull_Space("Units - Launch", "Drone") >= 19
 
@@ -983,7 +983,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := "Fighter"
 Ability 2 Amount 2 Formula                      := 3000
 Ability 3 Type                                  := Description Only
-Ability 3 Description                           := Heavy Carriers can have a maximum of 24 engines.
+Ability 3 Description                           := Heavy Carriers can have a maximum of 6 engines.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
@@ -1018,8 +1018,8 @@ Requirement 6 Description                       := Heavy Carriers need Crew Quar
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 700) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 7 Description                       := Heavy Carriers need enough Life Support for Crew Quarters.
 Requirement 7 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 8 Description                       := Heavy Carriers can have a maximum of 24 engines.
-Requirement 8 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 24
+Requirement 8 Description                       := Heavy Carriers can have a maximum of 6 engines.
+Requirement 8 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 6
 Requirement 9 Description                       := Heavy Carriers must have at least 20% of its hull dedicated to Fighter Bays or Drone Launchers.
 Requirement 9 Formula                           := Get_Design_Ability_Percentage_Of_Hull_Space("Units - Launch", "Fighter") + Get_Design_Ability_Percentage_Of_Hull_Space("Units - Launch", "Drone") >= 19
 
@@ -1260,7 +1260,7 @@ Ability 1 Range Formula                         := 0
 Ability 1 Amount 1 Formula                      := -30 - (10 * [%Level%])
 Ability 1 Amount 2 Formula                      := 0
 Ability 2 Type                                  := Description Only
-Ability 2 Description                           := Colony Ships can have a maximum of 6 engines.
+Ability 2 Description                           := Colony Ships can have a maximum of 3 engines.
 Ability 2 Scope                                 := Space Object
 Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := 0
@@ -1287,8 +1287,8 @@ Requirement 5 Description                       := Colony Ships need Crew Quarte
 Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 100) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 6 Description                       := Colony Ships need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 7 Description                       := Colony Ships can have a maximum of 6 engines.
-Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 6
+Requirement 7 Description                       := Colony Ships can have a maximum of 3 engines.
+Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 3
 Requirement 8 Description                       := Colony Ships must have a Colony Module.
 Requirement 8 Formula                           := (Get_Design_Ability_Component_Count("Planet Colonize Type 1") = 1) or (Get_Design_Ability_Component_Count("Planet Colonize Type 2") = 1) or (Get_Design_Ability_Component_Count("Planet Colonize Type 3") = 1) or (Get_Design_Ability_Component_Count("Planet Colonize Type 4") = 1) or (Get_Design_Ability_Component_Count("Planet Colonize Type 5") = 1)
 
@@ -1361,7 +1361,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := -15 - (10 * [%Level%])
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Description Only
-Ability 3 Description                           := Small Freighters can have a maximum of 4 engines.
+Ability 3 Description                           := Small Freighters can have a maximum of 2 engines.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
@@ -1388,8 +1388,8 @@ Requirement 5 Description                       := Small Freighters need Crew Qu
 Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 100) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 6 Description                       := Small Freighters need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 7 Description                       := Small Freighters can have a maximum of 4 engines.
-Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 4
+Requirement 7 Description                       := Small Freighters can have a maximum of 2 engines.
+Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 2
 Requirement 8 Description                       := Small Freighters must have at least 40% of its hull dedicated to cargo space.
 Requirement 8 Formula                           := Get_Design_Ability_Percentage_Of_Hull_Space("Storage Cargo Space Amount", "") >= 40
 
@@ -1462,7 +1462,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := -15 - ([%Level%] * 10)
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Description Only
-Ability 3 Description                           := Medium Freighters can have a maximum of 12 engines.
+Ability 3 Description                           := Medium Freighters can have a maximum of 4 engines.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
@@ -1489,8 +1489,8 @@ Requirement 5 Description                       := Medium Freighters need Crew Q
 Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 200) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 6 Description                       := Medium Freighters need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 7 Description                       := Medium Freighters can have a maximum of 12 engines.
-Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 12
+Requirement 7 Description                       := Medium Freighters can have a maximum of 4 engines.
+Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 4
 Requirement 8 Description                       := Medium Freighters must have at least 40% of its hull dedicated to cargo space.
 Requirement 8 Formula                           := Get_Design_Ability_Percentage_Of_Hull_Space("Storage Cargo Space Amount", "") >= 40
 
@@ -1563,7 +1563,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := -15 - ([%Level%] * 10)
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Description Only
-Ability 3 Description                           := Large Freighters can have a maximum of 20 engines.
+Ability 3 Description                           := Large Freighters can have a maximum of 5 engines.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
@@ -1590,8 +1590,8 @@ Requirement 5 Description                       := Large Freighters need Crew Qu
 Requirement 5 Formula                           := (Get_Design_Ability_Total("Crew Quarters", 1) >= 300) or (Get_Design_Ability_Component_Count("Master Computer") >= 1)
 Requirement 6 Description                       := Large Freighters need enough Life Support for Crew Quarters.
 Requirement 6 Formula                           := (Get_Design_Ability_Total("Life Support", 1) >= Get_Design_Ability_Total("Crew Quarters", 1))
-Requirement 7 Description                       := Large Freighters can have a maximum of 20 engines.
-Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 20
+Requirement 7 Description                       := Large Freighters can have a maximum of 5 engines.
+Requirement 7 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 5
 Requirement 8 Description                       := Large Freighters must have at least 40% of its hull dedicated to cargo space.
 Requirement 8 Formula                           := Get_Design_Ability_Percentage_Of_Hull_Space("Storage Cargo Space Amount", "") >= 40
 
@@ -2903,7 +2903,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := -20 - (10 * [%Level%])
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Description Only
-Ability 3 Description                           := Small Drones can have a maximum of 2 engines.
+Ability 3 Description                           := Small Drones can have a maximum of 1 engine.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
@@ -2924,8 +2924,8 @@ Requirement 2 Description                       :=
 Requirement 2 Formula                           := TRUE
 Requirement 3 Description                       := Small Drones must have a Drone Computer Core.
 Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core")) = 1
-Requirement 4 Description                       := Small Drones can have a maximum of 2 engines.
-Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 2
+Requirement 4 Description                       := Small Drones can have a maximum of 1 engine.
+Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 1
 Requirement 5 Description                       := Small Drones cannot have more than 1 Emissive Armor (Temporary Restriction).
 Requirement 5 Formula                           := Get_Design_Specific_Component_Count("Emissive Armor") <= 1
 
@@ -2998,7 +2998,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := -20 - (10 * [%Level%])
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Description Only
-Ability 3 Description                           := Medium Drones can have a maximum of 3 engines.
+Ability 3 Description                           := Medium Drones can have a maximum of 1 engine.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
@@ -3019,8 +3019,8 @@ Requirement 2 Description                       :=
 Requirement 2 Formula                           := TRUE
 Requirement 3 Description                       := Medium Drones must have a Drone Computer Core.
 Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core")) = 1
-Requirement 4 Description                       := Medium Drones can have a maximum of 3 engines.
-Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 3
+Requirement 4 Description                       := Medium Drones can have a maximum of 1 engine.
+Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 1
 Requirement 5 Description                       := Medium Drones cannot have more than 1 Emissive Armor (Temporary Restriction).
 Requirement 5 Formula                           := Get_Design_Specific_Component_Count("Emissive Armor") <= 1
 
@@ -3093,7 +3093,7 @@ Ability 2 Range Formula                         := 0
 Ability 2 Amount 1 Formula                      := -20 - (10 * [%Level%])
 Ability 2 Amount 2 Formula                      := 0
 Ability 3 Type                                  := Description Only
-Ability 3 Description                           := Large Drones can have a maximum of 4 engines.
+Ability 3 Description                           := Large Drones can have a maximum of 1 engine.
 Ability 3 Scope                                 := Space Object
 Ability 3 Range Formula                         := 0
 Ability 3 Amount 1 Formula                      := 0
@@ -3114,8 +3114,8 @@ Requirement 2 Description                       :=
 Requirement 2 Formula                           := TRUE
 Requirement 3 Description                       := Large Drones must have a Drone Computer Core.
 Requirement 3 Formula                           := (Get_Design_Specific_Component_Count("Drone Computer Core") + Get_Design_Specific_Component_Count("Combat Drone Computer Core")) = 1
-Requirement 4 Description                       := Large Drones can have a maximum of 4 engines.
-Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 4
+Requirement 4 Description                       := Large Drones can have a maximum of 1 engine.
+Requirement 4 Formula                           := Get_Design_Ability_Component_Count("Movement Standard") <= 1
 Requirement 5 Description                       := Large Drones cannot have more than 1 Emissive Armor (Temporary Restriction).
 Requirement 5 Formula                           := Get_Design_Specific_Component_Count("Emissive Armor") <= 1
 
