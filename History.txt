@@ -11,6 +11,9 @@ Changed:
 	- Enabled use of stock shipsets.
 	- Reorganized design types to get rid of duplicates and add a few that were missing.
 	- Hulls no longer get bigger as they level up; instead they gain other bonuses (such as reduced maintenance).
+	- Reworked emergency supply/ordnance to make it less micromanagey: it is now much larger and also stores some supplies/ordnance.
+		- Intended for use on dedicated supply/ordnance tankers, or heavy ships that you won't be building too many of.
+		- No longer one per ship, if you have space.
 Removed:
 	- Shipsets and ministers - this mod is not intended to be compatible with any AI.
 	- Organic and crystalline hulls - they don't add much to the game but make editing the mod more difficult.
